@@ -16,11 +16,11 @@ html {
 
 ::-webkit-scrollbar {
   width: 10px;
-  background-color: #344162;
+  background-color: #000000;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #344162;
+  background-color: #000000;
 }
 
 .navbar {
@@ -54,12 +54,12 @@ html {
 }
 
 .sticky {
-  background-color: #344162;
+  background-color: #000000;
   padding: 18px 0;
 }
 
 .navbar-menu a:hover {
-  color: #3ef92e !important;
+  color: #FFA500 !important;
 }
 
 .sticky .navbar-menu a {
@@ -89,7 +89,7 @@ html {
 #home {
   height: 100vh;
   min-height: 500px;
-  background: #344162 no-repeat center;
+  background: #000000 no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -128,7 +128,7 @@ html {
 .head-subtitle {
   font-family: "Poppins", sans-serif;
   font-size: 88px;
-  color: #3EF92E;
+  color: #FFA500;
   line-height: 132px;
   font-weight: 600;
 }
@@ -145,11 +145,12 @@ html {
   width: 40%;
   height: 40%;
 }
+
 .unboxing-image {
-    float: right;
-    width: 80%;
-    height: 40%;
-  }
+  float: right;
+  width: 80%;
+  height: 40%;
+}
 
 #home .buttons {
   margin-top: 60px;
@@ -157,13 +158,13 @@ html {
 }
 
 #home .buttons a {
-  color: #3EF92E;
+  color: #FFA500;
   display: inline-block;
   font-size: 15px;
   font-weight: 500;
   margin: 15px 30px;
   width: 180px;
-  border: 1px solid #3EF92E;
+  border: 1px solid #FFA500;
   padding: 14px 0;
   border-radius: 10px;
   transition: 0.2s linear;
@@ -171,19 +172,19 @@ html {
 
 #home .buttons a:hover,
 #home .buttons a:nth-child(1) {
-  background-color: #3EF92E;
-  color: #344162;
+  background-color: #FFA500;
+  color: #000000;
 }
 
 section {
-  background: #344162;
+  background: #000000;
   padding-bottom: 50px;
 }
 
 .section-title {
   font-size: 56px;
   font-weight: 600;
-  color: #3EF92E;
+  color: #FFA500;
   /* margin-top: 50px; */
 }
 
@@ -211,9 +212,11 @@ section {
   border-radius: 50%;
   margin-right: 100px;
 }
+
 .icons {
   display: flex;
 }
+
 .sm {
   margin-top: 10px;
 
@@ -240,7 +243,7 @@ section {
   height: 2px;
   margin-top: 80px;
   margin-bottom: 80px;
-  background-color: #3EF92E;
+  background-color: #FFA500;
   border-radius: 3px;
   left: calc(50% - 150px);
 }
@@ -249,7 +252,7 @@ section {
   width: calc(30% - 10px);
   text-align: center;
   height: 300px;
-  border: 2px solid #3EF92E;
+  border: 2px solid #FFA500;
   border-radius: 9px;
   margin: 20px 0;
   padding: 40px 20px;
@@ -279,6 +282,7 @@ section {
   height: 40px;
   margin-bottom: 40px;
 }
+
 .service h4 {
   color: #f52ef9;
   font-weight: 600;
@@ -312,7 +316,7 @@ section {
   height: 50px;
   margin: 10px 0;
   background: none;
-  border: 1px solid #3EF92E;
+  border: 1px solid #FFA500;
   outline: none;
   padding: 20px;
   border-radius: 5px;
@@ -328,12 +332,12 @@ section {
 
 .contact-form .btn {
   width: 300px;
-  border: 2px solid #3EF92E;
+  border: 2px solid #FFA500;
   padding: 5px;
   margin-top: 20px;
   margin-left: auto;
   cursor: pointer;
-  background-color: #3EF92E;
+  background-color: #FFA500;
   border-radius: 8px;
   color: #202124;
   font-size: 20px;
@@ -346,7 +350,7 @@ section {
   position: absolute;
   height: 250px;
   margin-top: 20px;
-  background-color: #3EF92E;
+  background-color: #FFA500;
   border-radius: 3px;
   left: calc(67% - 200px);
 }
@@ -363,7 +367,7 @@ section {
 
 .contact-head {
   padding-bottom: 10px;
-  color: #3EF92E;
+  color: #FFA500;
 }
 
 .contact-icon img {
@@ -396,7 +400,7 @@ footer {
   right: 40px;
   width: 40px;
   height: 50px;
-  background-color: #3EF92E;
+  background-color: #FFA500;
   color: #fff;
   border: none;
   border-radius: 200px;
@@ -429,7 +433,7 @@ footer {
   }
 
   .sticky .navbar-menu {
-    background-color: #3EF92E;
+    background-color: #FFA500;
   }
 
   .navbar-menu.active {
@@ -444,6 +448,7 @@ footer {
   .menu-toggler.active span:nth-child(2) {
     opacity: 0;
   }
+
   .menu-toggler.active span:nth-child(3) {
     transform: rotate(45deg);
     bottom: 14px;
@@ -461,6 +466,7 @@ footer {
   .head-subtitle {
     font-size: 30px;
   }
+
   .section-title {
     width: 100%;
     font-size: 30px;
@@ -471,6 +477,7 @@ footer {
     flex-direction: column;
     font-size: x-small;
   }
+
   .about-image {
     max-height: 250px;
   }
@@ -488,6 +495,7 @@ footer {
     width: calc(85% - 20px);
     align-items: center;
   }
+
   .serviceMid {
     width: calc(80% - 10px);
     align-items: center;
