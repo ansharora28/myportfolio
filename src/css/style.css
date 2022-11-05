@@ -270,15 +270,15 @@ section {
 }
 
 .service img {
-  width: 40px;
-  height: 40px;
-  margin-bottom: 40px;
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
 }
 
 .serviceMid img {
   width: 40px;
   height: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 5px;
 }
 
 .service h4 {
