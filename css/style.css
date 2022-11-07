@@ -246,6 +246,13 @@ section {
   left: calc(50% - 150px);
 }
 
+
+.docs {
+  display: block;
+  display: grid;
+  place-items: center;
+}
+
 .service {
   width: calc(30% - 10px);
   text-align: center;
@@ -484,6 +491,7 @@ footer {
     flex: 100%;
     text-align: justify;
   }
+
 
   .services {
     width: 100%;
