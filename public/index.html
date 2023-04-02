@@ -103,7 +103,7 @@
     </div>
     </div>
   </section>
-  <section id="resume">
+  <!-- <section id="resume">
     <div class="inner-width">
       <div class="section-title" style="padding-top: 150px;text-align: center;"><span class="titleSection">Know Me More!
         </span></div>
@@ -117,7 +117,7 @@
       </div>
     </div>
     </div>
-  </section>
+  </section> -->
   <section id="service">
     <div class="inner-width">
       <div class="section-title" style="padding-top: 150px;text-align: center;"><span class="titleSection">My
@@ -200,3 +200,26 @@
 
   <button class=" goTop fas fa-arrow-up"></button>
 </body>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAwdtW40Un5eihTdXWyIJT8ATeyYkAwsD8",
+    authDomain: "myportfolio-b4ff9.firebaseapp.com",
+    projectId: "myportfolio-b4ff9",
+    storageBucket: "myportfolio-b4ff9.appspot.com",
+    messagingSenderId: "893049483378",
+    appId: "1:893049483378:web:df56cb8706ea1af16f52eb",
+    measurementId: "G-TJZ1N3CZL7"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
